@@ -1,0 +1,10 @@
+[
+  { "name": "main", "type": "typesense" },
+  { "name": "shein", "type": "feed", "location": "data/feeds/shein.csv" },
+  {
+    "name": "temu",
+    "type": "feed",
+    "location": "https://example.com/affiliate/temu_products.json",
+    "fields": { "img": "thumb_url", "url": "goods_link" }
+  }
+]
